@@ -23,10 +23,18 @@ nav {
 }
 
 .name-header {
+    margin-left: 20px;
     font-size: 250%;
     font-weight: bolder;
     font-style: italic;
     color: aqua;
+}
+
+.name-header:hover {
+    cursor: pointer;
+    background: darkblue;
+    box-shadow: 0 0 5px darkblue, 0 0 20px darkblue, 0 0 60px darkblue;
+    border-radius: 5px;
 }
 
 .menu-icon {
@@ -35,7 +43,8 @@ nav {
 }
 
 nav {
-    background-color: darkcyan;
+    background-color: darkblue;
+    box-shadow: 0 0 10px darkblue, 0 0 60px darkblue, 0 0 120px darkblue;
 }
 
 nav ul {
@@ -63,11 +72,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #3324ff;
-    background-color: tomato;
-    transform: 2.4s;
-    transition: .8s;
-    border: 2px solid green;
+    cursor: pointer;
+    background: #ffc000;
+    box-shadow: 0 0 5px #ffc000, 0 0 20px #ffc000, 0 0 60px #ffc000;
 }
 
 .text-box {
@@ -100,10 +107,24 @@ nav ul li a:hover {
 }
 
 .text-box .btn2 {
-    background: #09bb85;
+    background: #ffc000;
     color: rgb(13, 30, 128);
     margin: 30px;
     font-weight: 600;
+}
+
+.text-box .btn2:hover {
+    cursor: pointer;
+    background: #ffc000;
+    box-shadow: 0 0 5px #ffc000, 0 0 20px #ffc000, 0 0 60px #ffc000;
+    transition: 0.4s;
+}
+
+.text-box .btn:hover {
+    cursor: pointer;
+    background: #03649c;
+    box-shadow: 0 0 5px #03649c, 0 0 20px #03649c, 0 0 60px #03649c;
+    transition: 0.4s;
 }
 
 .user-img {
@@ -111,4 +132,12 @@ nav ul li a:hover {
     position: absolute;
     right: 8%;
     bottom: 0%;
+    box-shadow: 0 0 5px aqua, 0 0 20px aqua, 0 0 60px aqua;
+}
+
+.user-img:hover {
+    cursor: pointer;
+    background: #ffc000;
+    box-shadow: 0 0 5px #ffc000, 0 0 20px #ffc000, 0 0 60px #ffc000;
+    transition: 0.8s;
 }
